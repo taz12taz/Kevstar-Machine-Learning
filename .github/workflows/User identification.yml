@@ -15,7 +15,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: Windows 64bit system with 4GB of ram
+    runs-on: Windows
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -31,3 +31,13 @@ jobs:
         run: |
           echo Add other actions to build
           echo test, and deploy your project.
+
+- name: First interaction
+  uses: actions/first-interaction@v1.1.0
+  with:
+    # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
+    repo-token: 
+    # Comment to post on an individual's first issue
+    issue-message: # optional
+    # Comment to post on an individual's first pull request
+    pr-message: # optional
