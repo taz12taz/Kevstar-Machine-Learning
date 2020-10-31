@@ -1,0 +1,13 @@
+if (window.PaymentRequest) {
+  // This browser supports Payment Request
+  // Display your Payment Request button
+} else {
+  // Browser does not support Payment Request
+  // Set up Hosted Fields, etc.
+}
+<script src="https://js.braintreegateway.com/web/3.68.0/js/client.min.js"></script>
+<script src="https://js.braintreegateway.com/web/3.68.0/js/payment-request.min.js"></script>
+var client = require('braintree-web/client');
+var paymentRequest = require('braintree-web/payment-request');
+
+// ...
