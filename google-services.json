@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48254697020",
+    "firebase_url": "https://bwgovernment-portal-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bwgovernment-portal",
+    "storage_bucket": "bwgovernment-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48254697020:android:a6acc2f3de08791d4f0d39",
+        "android_client_info": {
+          "package_name": "BW.Portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48254697020-qqevsm28ts1v5pdm1d0bh141nrvaln7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR1csIwei8Pk884N9M1RJKb-VSrqB8u3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48254697020-qqevsm28ts1v5pdm1d0bh141nrvaln7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
